@@ -81,8 +81,6 @@ class DateTimeWidget(MultiWidget):
         self.language = get_language()
 
     def __init__(self, attrs=None, options=None, usel10n = None):
-        if attrs is None:
-            attrs = {'readonly':''}
 
         if options is None:
             options = {}
